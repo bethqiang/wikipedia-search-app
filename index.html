@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Catamaran">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hind">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="main-container" class="container">
+    <h1 class="center">Wikipedia Search App</h1>
+    <br>
+    <div id="search-container" class="container">
+      <div class="input-group">
+        <input id="search-input" type="text" class="form-control" placeholder="Search Wikipedia for...">
+        <span class="input-group-btn">
+          <button id="search-button" class="btn"><i class="fa fa-search"></i></button>
+        </span>
+      </div>
+    </div>
+    <br>
+    <p class="center"><strong>Or</strong><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="random" class="btn btn-secondary">get a random article</button></a></p>
+    <div id="results-container" class="container">
+      <ul id="results">
+      </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <p style="text-align: center">Created with <i class="fa fa-heart"></i> by <a href="https://codepen.io/bethqiang/">Beth Qiang</a> as part of <a href="https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer" target="_blank">a Free Code Camp project</a></p>
+</footer>
